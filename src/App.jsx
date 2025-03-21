@@ -19,7 +19,13 @@ function App() {
     </div>
   );
 };
-
+const FriendList = () => {
+  return(
+    <div>
+     <FriendList friends={friends}/> 
+    </div>
+  );
+ };
 
 
  
