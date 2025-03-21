@@ -1,5 +1,8 @@
 import userData from "./userData.json";
-import Profile from "./components/Profile";
+import Profile from "./components/Profile/Profile";
+import friends from "./friends.json";
+import FriendsList from "./components/FriendList/FriendList";
+import FriendListItem from "./components/FriendListItem/FriendListItem";
 
 function App() {
   return (
@@ -12,7 +15,13 @@ function App() {
       image={userData.avatar}
       stats={userData.stats}
       />
+        <FriendList friends={friends} />
     </div>
   );
 };
-export default App;
+
+
+
+ 
+ export default App;
+
