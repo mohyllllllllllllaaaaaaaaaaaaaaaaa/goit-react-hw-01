@@ -1,1 +1,17 @@
-/* />
+.friendlist ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.friendlist li{
+    flex-direction: column;
+    align-items: center;
+     background-color: aliceblue;
+    text-align: center;
+    border: solid #080808;
+   border-radius: 5px; 
+   padding: 10px;
+   
+}
