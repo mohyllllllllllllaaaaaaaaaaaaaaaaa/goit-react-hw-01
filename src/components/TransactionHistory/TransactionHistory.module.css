@@ -1,0 +1,23 @@
+.table{
+    border: solid #090909;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+ font-weight: bold;
+}
+.table tr:nth-child(odd) {
+    background-color: #a5a1abee; 
+  }
+  .table tr:nth-child(even) {
+    background-color: white; 
+  }
+  .tableTitle th {
+    color: white; 
+    background-color: #242222;
+  }
