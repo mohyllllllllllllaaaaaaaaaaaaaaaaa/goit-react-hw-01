@@ -8,10 +8,10 @@
 .friendlist li{
     flex-direction: column;
     align-items: center;
-     background-color: aliceblue;
+     background-color: rgb(247, 241, 248);
     text-align: center;
-    border: solid #080808;
+    border: solid rgb(115, 111, 118);
    border-radius: 5px; 
    padding: 10px;
-   
+   width: 70px;
 }
